@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Nexus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobileStyle.css" media="only screen and (max-width: 600px)">
+    <link rel="icon" type="image/png" href="images/nexusLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="sideBar">
+                <li onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <script>
+                    function hideSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "none";
+
+                    }
+                </script>
+                <li><a href="home.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About Nexus</a></li>
+                <li><a href="resources.html" target="_blank">Resources</a></li>
+                <li><a href="events.html" target="_blank">Events</a></li>
+                <li><a href="opportunities.html" target="_blank">Opportunities</a></li>
+                <li><a href="ratings.html" target="_blank">Rating</a></li>
+            </ul>
+
+            <ul>
+                <li><img src="images/logo.jpg" alt="logo and name" height="70px" width="100px" style="border-radius: 60px;"></li>
+                <li class="remove_in_mobile"><a href="home.html" target="_blank">Home</a></li>
+                <li class="remove_in_mobile"><a href="about.html" target="_blank">About Nexus</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="resources.html" target="_blank" class="remove_in_mobile">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="notes.html" target="_blank">Notes and Study Guides</a></li>
+                        <li><a href="onlinePlatforms.html" target="_blank">Online Learning Platforms</a></li>
+                        <li><a href="previouses.html" target="_blank">Previous Exams</a></li>
+                        <li><a href="#ttutoring.html" target="_blank">Tutoring Services</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="events.html" target="_blank">Events</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="opportunities.html" target="_blank" class="remove_in_mobile">Opportunities</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.linkedin.com/jobs/internships/" target="_blank">Internships</a>
+                        </li>
+                        <li><a href="https://www.scholarships.com" target="_blank">Scholarships</a></li>
+                        <li><a href="https://www.skillshare.com" target="_blank">Workshops</a></li>
+                        <li><a href="careerpathNav.html" target="_blank">Career Path Navigator</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="ratings.html" target="_blank">Rating</a></li>
+                <li class="menu_button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                <script>
+                    function showSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "flex";
+
+                    }
+                </script>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="normal">
+        <br><br>
+        <div class="center">
+            <img src="images/logo + name.jpg" alt="logo and name" width="100%" class="aboutimage">
+        </div>
+        <br><br>
+        <h2>Your Ultimate University Student Hub</h2>
+
+        <h4>Welcome to <strong>Nexus</strong>, a platform designed exclusively for university students to connect, collaborate, and succeed.
+            At Nexus, we understand the unique challenges students face during their academic journey, and we are here to make it easier. 
+            Whether you are looking for study resources, honest course or professor reviews, career advice, or a way to connect with fellow students, 
+            Nexus has it all in one place.
+        </h4>
+
+        <h3>- What is Nexus?</h3>
+        <p>Nexus is more than just a website; it is a community hub tailored to help students thrive 
+            academically, socially, and professionally. Built by students, for students, Nexus aims to provide tools and resources that empower you 
+            to excel in your studies and prepare for your future.  
+        </p>
+
+        <div class="center">
+            <h1>* * * * *</h1>
+        </div>
+
+        <h3>- Features of Nexus</h3>
+        <ol>
+            <li>
+                <strong>Shared Notes and Resources</strong>
+                <p>Access a growing library of notes, study guides, previous exams, and online resources contributed by students for students. 
+                    You can also take advantage of our tutoring services to get personalized help with challenging subjects. 
+                    Share your own materials or seek assistance to help others and make learning more collaborative. 
+                </p>
+            </li>
+
+            <li>
+                <strong>Course and Professor Ratings</strong>
+                <p>Unsure about which course to take next semester or which professor to choose? 
+                    Check out honest ratings and reviews from fellow students to make informed decisions.
+                    All anonymous!
+                </p>
+            </li>
+
+            <li>
+                <strong>Career Path Navigator</strong>
+                <p>Planning your future? Explore various career paths, industry insights, and tips to help you discover your dream career. 
+                    Nexus connects you with the tools and advice you need to prepare for life after graduation.
+                </p>
+            </li>
+
+            <li>
+                <strong>Opportunities Hub</strong>
+                <p>Stay updated on the latest internships, scholarships, events, and other opportunities relevant to your field of study.</p>
+            </li>
+
+            <li>
+                <strong>Community Connections</strong>
+                <p>Build meaningful connections with your peers. Whether you need a study buddy, a project partner, or advice from seniors, 
+                    Nexus helps you find the right people to collaborate with.  
+                </p>
+            </li>
+
+            <li>
+                <strong>Events and Workshops</strong>
+                <p>Stay in the loop with the latest events, workshops, and seminars happening around campus and beyond. 
+                    Whether you are looking to improve your skills, expand your network, or attend career fairs, Nexus keeps you informed. 
+                </p>
+            </li>
+        </ol>
+
+        <div class="center">
+            <h1>* * * * *</h1>
+        </div>
+
+        <h3>- Why Choose Nexus?</h3>
+        <p><strong style="color: #320F6A;">&nbsp;- By Students, For Students:</strong> Nexus is designed with university students in mind, addressing real-life challenges faced during college life. <br>
+            <strong style="color: #320F6A;">&nbsp;- Focused on Local Needs:</strong> Starting with our university, Nexus delivers content tailored to our academic environment and gradually expands to include other universities in Lebanon. <br>
+            <strong style="color: #320F6A;">&nbsp;- Practical and Goal-Oriented:</strong> Nexus is not just another website; it is a tool to help you achieve academic success and personal growth.
+        </p>
+
+        <div class="center">
+            <h1>* * * * *</h1>
+        </div>
+
+        <h3>- Our Vision</h3>
+        <p>We envision Nexus becoming the go-to platform for university students in Lebanon and beyond, fostering a community of collaboration, 
+            support, and growth. As we grow, we aim to add even more features and expand our scope to help students everywhere.  
+        </p>
+        <br><br><br>
+
+        <br><br>
+        <img src="images/studying.jpg" alt="studying" height="500" width=" 100%">
+    </main>
+
+    <footer>
+        <img src="images/logo.jpg" alt="logo" height="60" width="65">
+        <br><br>
+        <ul>
+            <li>
+                <a href="mailto:contact@nexus.com" target="_blank">Email Us</a>
+            </li>
+    
+            <li>
+                <a href="tel:+961-123456" target="_blank">Contact Us</a>
+            </li>
+    
+            <li>
+                <a href="faq.html" target="_blank">FAQ</a>
+            </li>
+        </ul>
+        <br>
+        <hr>
+        <p>&copy; 2024 Nexus. All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

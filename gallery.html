@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobileStyle.css" media="only screen and (max-width: 600px)">
+    <link rel="icon" type="image/png" href="images/nexusLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="sideBar">
+                <li onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <script>
+                    function hideSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "none";
+
+                    }
+                </script>
+                <li><a href="home.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About Nexus</a></li>
+                <li><a href="resources.html" target="_blank">Resources</a></li>
+                <li><a href="events.html" target="_blank">Events</a></li>
+                <li><a href="opportunities.html" target="_blank">Opportunities</a></li>
+                <li><a href="ratings.html" target="_blank">Rating</a></li>
+            </ul>
+
+            <ul>
+                <li><img src="images/logo.jpg" alt="logo and name" height="70px" width="100px" style="border-radius: 60px;"></li>
+                <li class="remove_in_mobile"><a href="home.html" target="_blank">Home</a></li>
+                <li class="remove_in_mobile"><a href="about.html" target="_blank">About Nexus</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="resources.html" target="_blank" class="remove_in_mobile">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="notes.html" target="_blank">Notes and Study Guides</a></li>
+                        <li><a href="onlinePlatforms.html" target="_blank">Online Learning Platforms</a></li>
+                        <li><a href="previouses.html" target="_blank">Previous Exams</a></li>
+                        <li><a href="#ttutoring.html" target="_blank">Tutoring Services</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="events.html" target="_blank">Events</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="opportunities.html" target="_blank" class="remove_in_mobile">Opportunities</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.linkedin.com/jobs/internships/" target="_blank">Internships</a>
+                        </li>
+                        <li><a href="https://www.scholarships.com" target="_blank">Scholarships</a></li>
+                        <li><a href="https://www.skillshare.com" target="_blank">Workshops</a></li>
+                        <li><a href="careerpathNav.html" target="_blank">Career Path Navigator</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="ratings.html" target="_blank">Rating</a></li>
+                <li class="menu_button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                <script>
+                    function showSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "flex";
+
+                    }
+                </script>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="normal">
+
+        <h2>Explore Nexus - Image Gallery</h2>
+
+        <br><br><br>
+
+        <div class="gallery">
+
+            <p>
+                <img src="images/placeholder.jpg" alt="place holder image" height="250px" width="50%">
+            </p>
+
+            <br><br>
+
+            <ul>
+
+                <li>
+                    <img src="images/studentsStudying.jpg" alt="students studying" height="140px" width="200px">
+                    <span>
+                        <figure>
+                            <img src="images/studentsStudying.jpg" alt="students studying" height="360px" width="790px">
+                            <figcaption>Collaborate and share resources to make studying easier and more effective</figcaption>
+                        </figure>
+                    </span>
+                </li>
+
+                <li>
+                    <img src="images/classroom.jpg" alt="classroom" height="140px" width="200px">
+                    <span>
+                        <figure>
+                            <img src="images/classroom.jpg" alt="classroom" height="360px" width="790px">
+                            <figcaption>Explore course and professor ratings to choose the best course</figcaption>
+                        </figure>
+                    </span>
+                </li>
+
+                <li>
+                    <img src="images/careerFair.jpg" alt="career fair" height="140px" width="200px">
+                    <span>
+                        <figure>
+                            <img src="images/careerFair.jpg" alt="career fair" height="360px" width="790px">
+                            <figcaption>Discover opportunities like internships and career fairs to kickstart your future</figcaption>
+                        </figure>
+                    </span>
+                </li>
+
+                <li>
+                    <img src="images/workshops.jpg" alt="workshops" height="140px" width="200px">
+                    <span>
+                        <figure>
+                            <img src="images/workshops.jpg" alt="workshops" height="360px" width="790px">
+                            <figcaption>Participate in hands-on workshops to gain new skills and broaden your horizons</figcaption>
+                        </figure>
+                    </span>
+                </li>
+
+                <li>
+                    <img src="images/tutoringSession.webp" alt="tutoring session" height="140px" width="200px">
+                    <span>
+                        <figure>
+                            <img src="images/tutoringSession.webp" alt="tutoring session" height="360px" width="790px">
+                            <figcaption>Get personalized help with challenging subjects through our tutoring services</figcaption>
+                        </figure>
+                    </span>
+                </li>
+
+                <li>
+                    <img src="images/studentCoding.jpg" alt="students coding" height="140px" width="200px">
+                    <span>
+                        <figure>
+                            <img src="images/studentCoding.jpg" alt="students coding" height="360px" width="790px">
+                            <figcaption>Stay ahead with technology-focused resources and tools to enhance your academic and professional journey</figcaption>
+                        </figure>
+                    </span>
+                </li>
+
+                <li>
+                    <img src="images/campusLife.jpg" alt="campus life" height="140px" width="200px">
+                    <span>
+                        <figure>
+                            <img src="images/campusLife.jpg" alt="campus life" height="360px" width="790px">
+                            <figcaption>Experience the vibrant campus life while accessing resources designed to help you thrive</figcaption>
+                        </figure>
+                    </span>
+                </li>
+
+                <li>
+                    <img src="images/notebooks.avif" alt="library and notebooks" height="140px" width="200px">
+                    <span>
+                        <figure>
+                            <img src="images/notebooks.avif" alt="library and notebooks" height="360px" width="790px">
+                            <figcaption>Access a library of notes, study guides, and previous exams to ace your courses</figcaption>
+                        </figure>
+                    </span>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </main>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <img src="images/logo.jpg" alt="logo" height="60" width="65">
+        <br><br>
+        <ul>
+            <li>
+                <a href="mailto:contact@nexus.com" target="_blank">Email Us</a>
+            </li>
+    
+            <li>
+                <a href="tel:+961-123456" target="_blank">Contact Us</a>
+            </li>
+    
+            <li>
+                <a href="faq.html" target="_blank">FAQ</a>
+            </li>
+        </ul>
+        <br>
+        <hr>
+        <p>&copy; 2024 Nexus. All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>

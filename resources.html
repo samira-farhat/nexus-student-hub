@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="mobileStyle.css" media="only screen and (max-width: 600px)">
+    <link rel="icon" type="image/png" href="images/nexusLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="sideBar">
+                <li onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <script>
+                    function hideSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "none";
+
+                    }
+                </script>
+                <li><a href="home.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About Nexus</a></li>
+                <li><a href="resources.html" target="_blank">Resources</a></li>
+                <li><a href="events.html" target="_blank">Events</a></li>
+                <li><a href="opportunities.html" target="_blank">Opportunities</a></li>
+                <li><a href="ratings.html" target="_blank">Rating</a></li>
+            </ul>
+
+            <ul>
+                <li><img src="images/logo.jpg" alt="logo and name" height="70px" width="100px" style="border-radius: 60px;"></li>
+                <li class="remove_in_mobile"><a href="home.html" target="_blank">Home</a></li>
+                <li class="remove_in_mobile"><a href="about.html" target="_blank">About Nexus</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="resources.html" target="_blank" class="remove_in_mobile">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="notes.html" target="_blank">Notes and Study Guides</a></li>
+                        <li><a href="onlinePlatforms.html" target="_blank">Online Learning Platforms</a></li>
+                        <li><a href="previouses.html" target="_blank">Previous Exams</a></li>
+                        <li><a href="#ttutoring.html" target="_blank">Tutoring Services</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="events.html" target="_blank">Events</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="opportunities.html" target="_blank" class="remove_in_mobile">Opportunities</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.linkedin.com/jobs/internships/" target="_blank">Internships</a>
+                        </li>
+                        <li><a href="https://www.scholarships.com" target="_blank">Scholarships</a></li>
+                        <li><a href="https://www.skillshare.com" target="_blank">Workshops</a></li>
+                        <li><a href="careerpathNav.html" target="_blank">Career Path Navigator</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="ratings.html" target="_blank">Rating</a></li>
+                <li class="menu_button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                <script>
+                    function showSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "flex";
+
+                    }
+                </script>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="adjust">
+        <h2>Find, share, and excel with your notes</h2>
+        <br>
+        <img src="images/grpstudy.jpg" alt="notes" width="100%">
+        <br><br><br>
+        <div class="table1">
+            <table>
+                <tr>
+                    <th>
+                        <a href="">Notes and Study Guides</a>
+                    </th>
+                    <th>
+                        <a href="">Online Learning Platforms</a>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                        Access a curated collection of notes and study guides created by students to help you succeed in your courses. 
+                        These resources cover key concepts, summaries, and exam tips, making studying easier and more effective.
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                        Explore top online learning platforms that offer courses, tutorials, and certifications in various fields. 
+                        From programming to personal development, these resources are designed to expand your knowledge and skills.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br><br><br><br>
+
+        <div class="center">
+            <h3>Looking for specific study materials? Use the search bar below to quickly find notes, study guides, previous exams, 
+                or online resources tailored to your courses and subjects.
+            </h3>
+
+            <form action="" method="GET">
+                <label for="">Search by Course Name:</label><br><br>
+                <input type="text" name="search" placeholder="eg: CMPS200 or MATH201" required size="50">
+                <br><br>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <br><br>
+
+        <div class="divleft">
+            <div id="fixalign">
+                <h3>Looking to ace your exams? <br>Explore our collection of past exam papers <br>to practice and prepare like a pro <br><br>click below to access previous exams!</h3>
+                <br>
+                <a href="previouses.html" class="createBorder" style="color: #F4ECFC;">Previouses</a>
+            </div>
+        </div>
+
+        <div class="divright">
+            <img src="images/acingexams.jpg" alt="acing exams" height="450" width="650" class="remove_in_mobile">
+        </div>
+
+        <div id="tutoringpage">
+            <br><br>
+
+            <div class="divleft">
+                <img src="images/tutoring.jpg" alt="tutoring" width="400px" class="remove_in_mobile">
+            </div>
+
+            <div class="divright">
+                <h3>Struggling with a tough subject or aiming to boost your GPA?</h3>
+                <p>Our tutoring services are here to help! Get personalized support from experienced tutors who can guide you through challenging topics 
+                    and help you build confidence in your studies. Whether it's math, programming, or any other subject, find the help you need to excel below.
+                </p>
+                <br>
+                <a href="tutoringservices.html" class="createBorder" style="color: #F4ECFC;">Tutoring Services</a>
+            </div>
+        </div>
+
+        <div id="bottompage" class="remove_in_mobile">
+            <br>
+            <h3>Stay Motivated and Achieve Your Goals!</h3>
+            <p>Take a moment to watch this inspiring video about the importance of hard work, effective studying, 
+                and making the most of your time. Let it motivate you as you strive for academic and personal success!
+            </p>
+            <br>
+            <iframe src="https://www.youtube.com/embed/z3FA2kALScU" height="300px" width="500px">
+                View the <a href="https://www.youtube.com/watch/z3FA2kALScU"> Youtube Video</a>
+            </iframe>
+        </div>
+        <br><br>
+
+    </main>
+
+    <footer>
+        <img src="images/logo.jpg" alt="logo" height="60" width="65">
+        <br><br>
+        <ul>
+            <li>
+                <a href="mailto:contact@nexus.com" target="_blank">Email Us</a>
+            </li>
+    
+            <li>
+                <a href="tel:+961-123456" target="_blank">Contact Us</a>
+            </li>
+    
+            <li>
+                <a href="faq.html" target="_blank">FAQ</a>
+            </li>
+        </ul>
+        <br>
+        <hr>
+        <p>&copy; 2024 Nexus. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

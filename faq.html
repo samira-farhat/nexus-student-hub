@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobileStyle.css" media="only screen and (max-width: 600px)">
+    <link rel="icon" type="image/png" href="images/nexusLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="sideBar">
+                <li onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <script>
+                    function hideSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "none";
+
+                    }
+                </script>
+                <li><a href="home.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About Nexus</a></li>
+                <li><a href="resources.html" target="_blank">Resources</a></li>
+                <li><a href="events.html" target="_blank">Events</a></li>
+                <li><a href="opportunities.html" target="_blank">Opportunities</a></li>
+                <li><a href="ratings.html" target="_blank">Rating</a></li>
+            </ul>
+
+            <ul>
+                <li><img src="images/logo.jpg" alt="logo and name" height="70px" width="100px" style="border-radius: 60px;"></li>
+                <li class="remove_in_mobile"><a href="home.html" target="_blank">Home</a></li>
+                <li class="remove_in_mobile"><a href="about.html" target="_blank">About Nexus</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="resources.html" target="_blank" class="remove_in_mobile">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="notes.html" target="_blank">Notes and Study Guides</a></li>
+                        <li><a href="onlinePlatforms.html" target="_blank">Online Learning Platforms</a></li>
+                        <li><a href="previouses.html" target="_blank">Previous Exams</a></li>
+                        <li><a href="#ttutoring.html" target="_blank">Tutoring Services</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="events.html" target="_blank">Events</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="opportunities.html" target="_blank" class="remove_in_mobile">Opportunities</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.linkedin.com/jobs/internships/" target="_blank">Internships</a>
+                        </li>
+                        <li><a href="https://www.scholarships.com" target="_blank">Scholarships</a></li>
+                        <li><a href="https://www.skillshare.com" target="_blank">Workshops</a></li>
+                        <li><a href="careerpathNav.html" target="_blank">Career Path Navigator</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="ratings.html" target="_blank">Rating</a></li>
+                <li class="menu_button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                <script>
+                    function showSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "flex";
+
+                    }
+                </script>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="adjust">
+        <div class="center"> 
+            <img src="images/faqs.jpg" alt="faqs" width="50%">
+        </div>
+        <h3 onclick="showAnswer('answer1')">1- What is Nexus? <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/></svg></h3>
+        <p id="answer1" style="display: none;">Nexus is a student hub designed to provide resources, tools, and a community for university students to collaborate, share materials, 
+            and find helpful academic and career-related content.
+        </p>
+
+        <h3 onclick="showAnswer('answer2')">2- How can I access study notes? <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/></svg></h3>
+        <p id="answer2" style="display: none;">To access study notes go to the <strong><a href="resources.html" target="_blank">Resources</a></strong> page, where you can find a variety of notes and study guides 
+            contributed by fellow students. You can also upload your own materials to help others.
+        </p>
+
+        <h3 onclick="showAnswer('answer3')">3- How can I find previous exams for my courses on Nexus? <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/></svg></h3>
+        <p id="answer3" style="display: none;">In the <strong><a href="resources.html" target="_blank">Resources</a></strong> page, you can access the section dedicated to "Previouses", and you will find a collection of past exams for various courses.
+            Simply select your course, and you will see the available previouses uploaded by students.
+        </p>
+
+        <h3 onclick="showAnswer('answer4')">4- Can I rate professors and courses on Nexus? <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/></svg></h3>
+        <p id="answer4" style="display: none;">Yes! On the <strong><a href="ratings.html" target="_blank">Ratings</a></strong> page, where you can read reviews from other students or submit
+            your own rating to help others make informed decisions.
+        </p>
+
+        <h3 onclick="showAnswer('answer5')">5- How do I find career opportunities? <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/></svg></h3>
+        <p id="answer5" style="display: none;">You can find the latest internships, scholarships, and job opportunities on the <strong><a href="opportunities.html" target="_blank">Opportunities</a></strong> page, 
+            Additionally, Nexus offers career guidance through the <strong><a href="careerpathNav.html" target="_blank">Carrer Path Navigator</a></strong> section.
+        </p>
+
+        <h3 onclick="showAnswer('answer6')">6- Are there any upcoming events or workshops? <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/></svg></h3>
+        <p id="answer6" style="display: none;">Yes! the <strong><a href="events.html" target="_blank">Events</a></strong> page lists all upcoming workshops, seminars, and networking events.
+            You can also subscribe to updates to never miss an event.
+        </p>
+
+        <h3 onclick="showAnswer('answer7')">7- How can I contact Nexus for support or questions? <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/></svg></h3>
+        <p id="answer7" style="display: none;">You can reach out to us via email by visiting the <strong><a href="contact.html" target="_blank">Contact</a></strong> page or directly emailing us at <a href="mailto:contact@nexus.com">contact@nexus.com</a>.</p>
+
+
+        <script>
+            function showAnswer(id){
+                const answer= document.getElementById(id);
+                if(answer.style.display == "none"){
+                    answer.style.display = "block";
+                }
+                else{
+                    answer.style.display = "none"
+                }
+            }
+        </script>
+
+
+        <br><br>
+        <img src="images/studying.jpg" alt="studying" height="500" width=" 100%">
+    </main>
+
+    <footer>
+        <img src="images/logo.jpg" alt="logo" height="60" width="65">
+        <br><br>
+        <ul>
+            <li>
+                <a href="mailto:contact@nexus.com" target="_blank">Email Us</a>
+            </li>
+    
+            <li>
+                <a href="tel:+961-123456" target="_blank">Contact Us</a>
+            </li>
+    
+            <li>
+                <a href="faq.html" target="_blank">FAQ</a>
+            </li>
+        </ul>
+        <br>
+        <hr>
+        <p>&copy; 2024 Nexus. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

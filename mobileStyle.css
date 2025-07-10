@@ -1,0 +1,99 @@
+/* Body Style */
+body {
+    background-color: #F4ECFC;
+    color: #320F6A;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+
+header a {
+    font-size: 16px;
+}
+
+/* Navigation Style */
+
+.menu_button{
+    display: block;
+}
+
+/* Dropdown Menu Styles */
+
+.dropdown-menu, .dropdown:hover .dropdown-menu {
+    display: none;
+}
+
+/* Footer Style */
+footer img{
+    padding-left: 30px;
+}
+
+footer ul li a{
+    color: #F4ECFC;
+    padding-right: 50px;
+}
+
+/* Main Style */
+main {
+    font-size: 18px;
+    padding: 20px;
+    padding-right: 30px;
+}
+
+main h2 {
+    font-size: 24px;
+}
+
+main h4 {
+    font-size: large;
+}
+
+main p {
+    font-size: medium;
+}
+
+table img, iframe, figure{
+    display: none;
+}
+
+/* Table Style */
+.table1 tr {
+    height: auto;
+}
+
+.table1 td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.table1 th {
+    padding: 8px;
+    font-size: large;
+}
+
+/* Form Styling */
+form input, form select, form textarea {
+    width: 100%;
+    font-size: medium;
+}
+
+/* Extra Styling */
+
+.remove_in_mobile{
+    display: none;
+}
+
+/* Home Page */
+.divleft,
+.divright {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+#nexusGallery{
+    display: none;
+}

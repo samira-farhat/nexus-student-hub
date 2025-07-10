@@ -1,0 +1,356 @@
+/* Body Style */
+body {
+    background-color: #F4ECFC;
+    color: #320F6A;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+/* Header Style */
+header {
+    background-color: #320F6A;
+}
+
+header a:hover{
+    display: inline-block;
+    border-bottom: 3px solid #A187BB;
+}
+
+/* Navigation Style */
+nav{
+    text-align: center;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+nav ul li{
+    color: #F4ECFC;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+nav a {
+    color: #F4ECFC;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.sideBar{
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    margin: 0;
+    background-color: #a187bbb7;
+    backdrop-filter: blur(2px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sideBar li{
+    width: 100%;
+}
+
+.sideBar li:first-child{
+    text-align: right;
+}
+
+.sideBar a{
+    width: 50%;
+}
+
+.menu_button{
+    display: none;
+}
+/* Dropdown Menu Styles */
+
+.dropdown-menu {
+    list-style-type: none;
+    position: absolute; 
+    background-color: #A187BB;
+    border: 1px solid #320F6A;
+    display: none; 
+    padding: 10px;
+    top: 100%; 
+    width: 200px;
+    border-radius: 3px;
+}
+
+.dropdown-menu a {
+    color: #F4ECFC;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #A187BB;
+    border-bottom: 3px solid #320F6A;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Main Style */
+main {
+    font-size: 20px;
+    padding: 50px;
+}
+
+main h2 {
+    font-size: 28px;
+    color: #320F6A;
+}
+
+main h4 {
+    font-weight: normal;
+    font-size: x-large;
+    color: #320F6A;
+}
+
+main p {
+    color: grey;
+    font-size: larger;
+}
+
+.center {
+    text-align: center;
+}
+
+.rightAlign{
+    text-align: right;
+}
+
+.normal a {
+    color: #F4ECFC;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: #320F6A;
+    padding: 20px 10px;
+}
+
+
+/* Footer Style */
+footer {
+    background-color: #320F6A;
+    color: #F4ECFC;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer hr {
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    display: inline;
+    margin: auto;
+}
+
+footer ul li a{
+    color: #F4ECFC;
+    padding-right: 80px;
+}
+
+/* Table Style */
+.table1 tr{
+    height: 150px;
+}
+
+.table1 td{
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.table1 th{
+    padding: 10px;
+    color: #320F6A;
+    font-size: x-large ;
+    line-height: 25px;
+}
+
+/* Form Styling */
+form legend{
+    font-weight: bold;
+}
+
+form input{
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #320F6A;
+    background-color: transparent;
+    font-size: large;
+}
+
+form select{
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #320F6A;
+    background-color: transparent;
+    font-size: large;
+    color: grey;
+}
+
+form button{
+    height: 50px;
+    width: 350px;
+    background-color: #320F6A;
+    color: #F4ECFC;
+    font-size: larger;
+}
+
+form textarea{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #320F6A;
+    background-color: transparent;
+    font-size: large;
+}
+
+
+/* Extra Styling to Pages */
+
+
+/* Home Page */
+#getstarted{
+    text-align: center;
+}
+
+#getstarted a{
+    background-color: #320F6A;
+    border: 2px solid #320F6A;
+    color: #F4ECFC;
+    padding: 20px;
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.divleft{
+    float: left;
+    width: 400px;
+    height: 450px;
+    margin: 50px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.divright{
+    float: right;
+    width: 800px;
+    height: 450px;
+    margin-top: 65px;
+    padding-top: 30px;
+}
+
+#nexusGallery{
+    clear: both;
+}
+
+/* Gallery Page */
+
+.gallery ul{
+    list-style-type: none;
+    width: 1000px;
+    margin: auto;
+}
+
+.gallery ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.gallery span img{
+    border: 2px solid #320F6A;
+}
+
+.gallery p{
+    text-align: center;
+}
+
+.gallery span{
+    display: none;
+}
+
+.gallery ul li:hover span{
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    text-align: center;
+
+}
+
+.gallery figcaption{
+    padding-top: 20px;
+}
+
+
+/* FAQS Page */
+.adjust a{
+    color: #320F6A;
+    text-decoration: none;
+}
+
+/* Resources Page */
+#fixalign{
+    padding-top: 100px;
+}
+
+#tutoringpage{
+    clear: both;
+    width: 100%;
+    height: 500px;
+}
+
+#bottompage{
+    clear: both;
+}
+
+.createBorder{
+    background-color: #320F6A;
+    padding: 20px 10px;
+}

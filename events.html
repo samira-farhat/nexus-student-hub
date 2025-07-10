@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="mobileStyle.css" media="only screen and (max-width: 600px)">
+    <link rel="icon" type="image/png" href="images/nexusLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="sideBar">
+                <li onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <script>
+                    function hideSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "none";
+
+                    }
+                </script>
+                <li><a href="home.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About Nexus</a></li>
+                <li><a href="resources.html" target="_blank">Resources</a></li>
+                <li><a href="events.html" target="_blank">Events</a></li>
+                <li><a href="opportunities.html" target="_blank">Opportunities</a></li>
+                <li><a href="ratings.html" target="_blank">Rating</a></li>
+            </ul>
+
+            <ul>
+                <li><img src="images/logo.jpg" alt="logo and name" height="70px" width="100px" style="border-radius: 60px;"></li>
+                <li class="remove_in_mobile"><a href="home.html" target="_blank">Home</a></li>
+                <li class="remove_in_mobile"><a href="about.html" target="_blank">About Nexus</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="resources.html" target="_blank" class="remove_in_mobile">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="notes.html" target="_blank">Notes and Study Guides</a></li>
+                        <li><a href="onlinePlatforms.html" target="_blank">Online Learning Platforms</a></li>
+                        <li><a href="previouses.html" target="_blank">Previous Exams</a></li>
+                        <li><a href="#ttutoring.html" target="_blank">Tutoring Services</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="events.html" target="_blank">Events</a></li>
+                <li class="dropdown" class="remove_in_mobile">
+                    <a href="opportunities.html" target="_blank" class="remove_in_mobile">Opportunities</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.linkedin.com/jobs/internships/" target="_blank">Internships</a>
+                        </li>
+                        <li><a href="https://www.scholarships.com" target="_blank">Scholarships</a></li>
+                        <li><a href="https://www.skillshare.com" target="_blank">Workshops</a></li>
+                        <li><a href="careerpathNav.html" target="_blank">Career Path Navigator</a></li>
+                    </ul>
+                </li>
+                <li class="remove_in_mobile"><a href="ratings.html" target="_blank">Rating</a></li>
+                <li class="menu_button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#F4ECFC"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                <script>
+                    function showSideBar(){
+                        const sidebar= document.querySelector(".sideBar");
+                        sidebar.style.display= "flex";
+
+                    }
+                </script>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="adjust">
+        <h2>Explore Events and Workshops</h2>
+        <h4>Stay connected with the latest events, workshops, and seminars happening on campue and beyond. From netwroking events to skill-building sessions, Nexus keeps you informed and engaged.</h4>
+        <img src="images/eventcalendar.jpg" alt="events planning" width="100%">
+        <br><br>
+
+        <div id="tabledata">
+            <table class="table1">
+
+                <tr>
+                    <th>
+                        <img src="images/christmas.jpg" alt="christmas" height="200px" width="200px">
+                        <br>
+                        Christmas and New Year Vacation
+                        <h5>-December 25-</h5>
+
+                    </th>
+                    <th>
+                        <img src="images/advising.jpg" alt="advising" height="200px" width="200px">
+                        <br>
+                        Advising for Spring
+                        <h5>-January 7-</h5>
+                    </th>
+                    <th>
+                        <a href="https://pusis.pu.edu.lb" target="_blank"><img src="images/register.jpg" alt="register" height="200px" width="200px"></a>
+                        <br>
+                        Spring Registration
+                        <h5>-January 30-</h5>
+                    </th>
+                    <th>
+                        <img src="images/books.jpg" alt="books" height="200px" width="200px">
+                        <br>
+                        Last Day of Classes
+                        <h5>-January 31-</h5>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                        Take a well-deserved break and enjoy the holiday season! Wishing you all a Merry Christmas and a Happy New Year. 
+                        Relax, recharge, and come back refreshed to finish the fall semester strong.
+                        </p>
+                        
+                    </td>
+                    <td>
+                        <p>
+                        Do not forget to meet with your advisor to plan your courses for the spring semester. 
+                        Once you've decided on your schedule, check out the <strong><a href="ratings.html" target="_blank">Ratings</a></strong> section on Nexus to help you choose the best 
+                        professors for your upcoming classes!
+                        </p>
+                        
+                    </td>
+                    <td>
+                        <p>
+                        Spring semester registration is here! Make sure you've finalized your course selections and secured your seat in the classes you need. 
+                        Do not forget to use Nexus for resources like ratings and reviews to guide your decisions.
+                        </p>
+                        
+                    </td>
+                    <td>
+                        <p>
+                        The semester is wrapping up, and it is time to prepare for finals! Make the most of our shared resources like notes and previous exams, 
+                        and do not hesitate to explore our <strong><a href="tutoringservices.html" target="_blank">Tutoring Services</a></strong> for additional support. Best of luck!
+                        </p>
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <br><br><br><br>
+        <h3>Stay connected with Nexus!</h3>
+        <p>Remain informed about the latest events, workshops, and seminars happening on <br>and off campus. Whether you are looking to enhance your skills, network with professionals, <br>or explore career opportunities, our events section has something for everyone.</p>
+        <br>
+        <a href="subscribe.html" target="_blank" style="border: 10px solid #320F6A; background-color:#320F6A ;color: #F4ECFC">SUBSCRIBE FOR UPDATES</a>
+        <br><br><br><br>
+    </main>
+
+    <footer>
+        <img src="images/logo.jpg" alt="logo" height="60" width="65">
+        <br><br>
+        <ul>
+            <li>
+                <a href="mailto:contact@nexus.com" target="_blank">Email Us</a>
+            </li>
+    
+            <li>
+                <a href="tel:+961-123456" target="_blank">Contact Us</a>
+            </li>
+    
+            <li>
+                <a href="faq.html" target="_blank">FAQ</a>
+            </li>
+        </ul>
+        <br>
+        <hr>
+        <p>&copy; 2024 Nexus. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
