@@ -20,7 +20,7 @@ A front-end website built for university studentsto access academic resources, s
   1. Download or clone the repository
   2. Open 'home.html' in any browser
  
-  ## Screenshots
+  ## Some Screenshots of Layout/Design
 
   ### Navigation Design
   ![Nav](screenshots/nav.png)
@@ -37,16 +37,16 @@ A front-end website built for university studentsto access academic resources, s
   ## Resources Design
   ![Resources](screenshots/resources.png)
 
-  ## Previouses / Resources Design
+  ## Previouses/Resources Design
   ![Footer](screenshots/previouses.png)
 
-  ## Tutoring / Resources Design
+  ## Tutoring/Resources Design
   ![Footer](screenshots/tutoringServices.png)
 
   ## Opportunities Design
   ![Footer](screenshots/opportunities.png)
 
-  ## Career Path Navigator / Opportunities Design
+  ## Career Path Navigator/Opportunities Design
   ![Footer](screenshots/careerPathNav.png)
 
   ## Ratings Design
