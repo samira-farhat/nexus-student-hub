@@ -21,4 +21,12 @@ A front-end website built for university studentsto access academic resources, s
   2. Open 'home.html' in any browser
  
   ## Screenshots
-  
+
+  ### Navigation Design
+  ![Nav](screenshots/nav.png)
+
+  ### Sign up/ Sign in Design
+  ![Sign](screenshots/sign in - up.png)
+
+  ### Home Design
+  ![Home](screenshots/home screen.png)
