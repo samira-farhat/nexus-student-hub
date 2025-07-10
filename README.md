@@ -1,6 +1,6 @@
 # Nexus-Student-Hub
 
-A front-end website built for university studentsto access academic resources, study materials, and opportunities.
+A front-end website built for university students to access academic resources, study materials, and opportunities.
 
 ## Features
 - HTML/CSS/JavaScript only (no backend)
