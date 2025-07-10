@@ -38,17 +38,17 @@ A front-end website built for university students to access academic resources, 
   ![Resources](screenshots/resources.png)
 
   ## Previouses/Resources Design
-  ![Footer](screenshots/previouses.png)
+  ![Previouses](screenshots/previouses.png)
 
   ## Tutoring/Resources Design
-  ![Footer](screenshots/tutoringServices.png)
+  ![Tutoring](screenshots/tutoringServices.png)
 
   ## Opportunities Design
-  ![Footer](screenshots/opportunities.png)
+  ![Opportunities](screenshots/opportunities.png)
 
   ## Career Path Navigator/Opportunities Design
-  ![Footer](screenshots/careerPathNav.png)
+  ![Career Path Nav](screenshots/careerPathNav.png)
 
   ## Ratings Design
-  ![Footer](screenshots/ratings.png)
+  ![Ratings](screenshots/ratings.png)
   
