@@ -26,8 +26,29 @@ A front-end website built for university studentsto access academic resources, s
   ![Nav](screenshots/nav.png)
 
   ### Sign up/ Sign in Design
-  ![Sign](screenshots/sign in - up.png)
+  ![Sign](screenshots/sign.png)
 
   ### Home Design
-  ![Home](screenshots/home screen.png)
+  ![Home](screenshots/homeScreen.png)
+
+  ## Footer Design
+  ![Footer](screenshots/footer.png)
+
+  ## Resources Design
+  ![Resources](screenshots/resources.png)
+
+  ## Previouses / Resources Design
+  ![Footer](screenshots/previouses.png)
+
+  ## Tutoring / Resources Design
+  ![Footer](screenshots/tutoringServices.png)
+
+  ## Opportunities Design
+  ![Footer](screenshots/opportunities.png)
+
+  ## Career Path Navigator / Opportunities Design
+  ![Footer](screenshots/careerPathNav.png)
+
+  ## Ratings Design
+  ![Footer](screenshots/ratings.png)
   
